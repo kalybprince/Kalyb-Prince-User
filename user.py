@@ -41,5 +41,5 @@ print(python.display_user_balance())    # -250
 
 monty.transfer_money(python, 50)
 
-print(monty.display_user_balance())     # 0
-print(python.display_user_balance())    # -200
+print(monty.display_user_balance())     # 50 - 50 = 0
+print(python.display_user_balance())    # -250 + 50 = -200
